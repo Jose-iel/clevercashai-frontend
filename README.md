@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Sistema Claver Cash AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Claver Cash** nasce para revolucionar a forma como indivíduos e empresas gerenciam suas finanças. A proposta é oferecer uma plataforma intuitiva, inteligente e eficiente, que simplifica o controle financeiro e auxilia na tomada de decisões estratégicas.
 
-## Available Scripts
+Com um sistema moderno e dinâmico, o Claver Cash proporciona uma experiência fluida e interativa, permitindo que os usuários acompanhem receitas, despesas e planejamento financeiro de maneira prática. A integração com Inteligência Artificial levará a gestão financeira a um novo nível, proporcionando automação e insights personalizados.
 
-In the project directory, you can run:
+## 📌 Features já existentes:
 
-### `npm start`
+- **Dashboard principal:** Apresenta uma visão geral das receitas, despesas e saldo total por meio de **três gráficos interativos**, permitindo uma análise detalhada do desempenho financeiro. Também inclui **filtros por mês e ano** para maior controle.
+- **Gestão de lançamentos:** Permite o cadastro de receitas e despesas, com funcionalidades para **editar e excluir lançamentos** de forma ágil e intuitiva.
+- **Organização por categorias:** Exibe uma listagem de **todas as categorias cadastradas**, junto com as despesas associadas a cada uma, facilitando a análise dos gastos por segmento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Novas Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Melhorias na Experiência do Usuário
 
-### `npm test`
+- **Sistema de autenticação:** Implementação de **login e cadastro** para garantir segurança e personalização da experiência do usuário.
+- **Visualização de últimos lançamentos:** Um painel que permitirá **acesso rápido às transações recentes**, otimizando a navegação.
+- **Ajuste de responsividade:** Melhorias na interface para **garantir uma experiência fluida em diferentes dispositivos**, como smartphones, tablets e desktops.
+- **Personalização da interface:** Opções para **customizar a aparência do sistema**, permitindo ajustes de cores, temas e layout conforme a preferência do usuário.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔹 Automação e Inteligência Artificial
 
-### `npm run build`
+- **Integração com IA:** Um **chat inteligente** onde o usuário poderá descrever seus gastos em linguagem natural, e o sistema **automaticamente registrará as informações** no banco de dados.
+- **Assistente financeiro preditivo com IA:** Além de registrar transações, a IA pode **prever despesas futuras** com base nos hábitos do usuário e sugerir ajustes no orçamento.
+- **Detecção automática de gastos desnecessários:** Um algoritmo pode **analisar padrões de consumo** e sugerir cortes ou alternativas mais econômicas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔹 Gestão Financeira Avançada
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Importação de extrato bancário:** Funcionalidade para **importar arquivos bancários**, automatizando o registro de transações e reduzindo o trabalho manual.
+- **Criação e edição de categorias:** Usuários poderão **personalizar as categorias de despesas e receitas**, tornando o controle financeiro ainda mais adaptável às suas necessidades.
+- **Criação de múltiplas contas bancárias:** Possibilidade de **adicionar e gerenciar várias contas bancárias**, permitindo um controle mais detalhado das finanças.
+- **Criação de cartões de crédito:** Funcionalidade para **adicionar cartões de crédito**, com controle de faturas, limites e vencimentos.
+- **Opção de ícones personalizados:** Usuários poderão **escolher ícones para categorias**, como um ícone de alimentação para restaurantes ou o logo do Nubank para um cartão de crédito.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔹 Recursos Extras e Colaborativos
 
-### `npm run eject`
+- **Gestão de assinaturas e cobranças recorrentes:** O sistema pode **identificar e alertar** sobre serviços de assinatura (Netflix, Spotify, Amazon Prime) e outras despesas recorrentes, como boletos e mensalidades.
+- **Modo offline com sincronização automática:** Permite o **registro de transações sem internet**, sincronizando automaticamente quando o usuário estiver online novamente.
+- **Simulação de metas financeiras e investimentos:** O usuário pode definir objetivos (como comprar um carro ou fazer uma viagem), e o sistema sugere **planos de economia e investimento** personalizados.
+- **Compartilhamento de orçamento familiar ou empresarial:** Possibilidade de **criar grupos financeiros**, onde diferentes membros podem registrar transações e acompanhar gastos compartilhados.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏆 Principais concorrentes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O Claver Cash AI entra no mercado para competir com algumas das principais ferramentas de gestão financeira disponíveis, trazendo diferenciais como automação via IA e interface moderna. Entre os principais concorrentes, destacam-se:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Mobills** - Uma das plataformas mais conhecidas para controle de finanças pessoais, com gráficos e relatórios detalhados.
+- **Organizze** - Focado na facilidade de uso, oferece funcionalidades para planejamento financeiro e categorização de despesas.
+- **Minhas Finanças** - Alternativa popular para quem busca simplicidade e eficiência na organização financeira.
+- **Guiabolso** - Possui integração direta com bancos e oferece análises automáticas de gastos.
+- **YNAB (You Need a Budget)** - Ferramenta popular nos EUA, conhecida por sua metodologia de orçamento baseada em regras para controle de gastos.
+- **Money Lover** - Aplicativo com design intuitivo que permite rastrear despesas e receitas com facilidade.
+- **PocketGuard** - Plataforma que ajuda os usuários a evitar gastos excessivos e economizar mais dinheiro.
+- **Expense IQ** - Oferece relatórios detalhados, lembretes de contas e sincronização com múltiplas contas bancárias.
+- **Spendee** - Foca na visualização intuitiva dos gastos e na categorização automática de transações.
+- **Wallet** - Aplicativo que permite planejamento financeiro detalhado e compartilhamento de orçamento familiar.
+- **Goodbudget** - Baseado no método de envelopes, ajuda no planejamento de gastos de maneira organizada.
+- **Cleo** - Aplicação de finanças baseada em IA que oferece insights personalizados e alertas sobre gastos.
+- **Plum** - Ferramenta que utiliza IA para sugerir economias automáticas e investimentos.
+- **Emma** - Assistente financeiro que monitora assinaturas, detecta desperdícios e sugere ajustes no orçamento.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O diferencial do **Claver Cash AI** está na combinação de **automação, inteligência artificial e flexibilidade**, proporcionando um sistema financeiro mais dinâmico e adaptável às necessidades dos usuários.
