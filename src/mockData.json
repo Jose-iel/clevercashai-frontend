@@ -1,0 +1,167 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Moradia",
+      "cor": "#FF8042"
+    },
+    {
+      "id": 2,
+      "nome": "Alimentação",
+      "cor": "#00C49F"
+    },
+    {
+      "id": 3,
+      "nome": "Transporte",
+      "cor": "#0088FE"
+    },
+    {
+      "id": 4,
+      "nome": "Lazer",
+      "cor": "#FFBB28"
+    },
+    {
+      "id": 5,
+      "nome": "Outros",
+      "cor": "#8884d8"
+    },
+    {
+      "id": 6,
+      "nome": "Renda",
+      "cor": "#82ca9d"
+    }
+  ],
+  "transacoes": [
+    {
+      "id": 1,
+      "descricao": "Salário",
+      "valor": 3500,
+      "tipo": "receita",
+      "data": "20/02/2025",
+      "categoria": "Renda",
+      "categoriaId": 6,
+      "mes": 1,
+      "ano": 2025
+    },
+    {
+      "id": 2,
+      "descricao": "Aluguel",
+      "valor": 1200,
+      "tipo": "despesa",
+      "data": "15/02/2025",
+      "categoria": "Moradia",
+      "categoriaId": 1,
+      "mes": 1,
+      "ano": 2025
+    },
+    {
+      "id": 3,
+      "descricao": "Supermercado",
+      "valor": 350,
+      "tipo": "despesa",
+      "data": "18/02/2025",
+      "categoria": "Alimentação",
+      "categoriaId": 2,
+      "mes": 1,
+      "ano": 2025
+    },
+    {
+      "id": 4,
+      "descricao": "Freelance",
+      "valor": 1200,
+      "tipo": "receita",
+      "data": "22/02/2025",
+      "categoria": "Renda",
+      "categoriaId": 6,
+      "mes": 1,
+      "ano": 2025
+    },
+    {
+      "id": 5,
+      "descricao": "Conta de Luz",
+      "valor": 180,
+      "tipo": "despesa",
+      "data": "10/02/2025",
+      "categoria": "Moradia",
+      "categoriaId": 1,
+      "mes": 1,
+      "ano": 2025
+    },
+    {
+      "id": 6,
+      "descricao": "Salário",
+      "valor": 3500,
+      "tipo": "receita",
+      "data": "20/03/2025",
+      "categoria": "Renda",
+      "categoriaId": 6,
+      "mes": 2,
+      "ano": 2025
+    },
+    {
+      "id": 7,
+      "descricao": "Aluguel",
+      "valor": 1200,
+      "tipo": "despesa",
+      "data": "15/03/2025",
+      "categoria": "Moradia",
+      "categoriaId": 1,
+      "mes": 2,
+      "ano": 2025
+    },
+    {
+      "id": 8,
+      "descricao": "Restaurante",
+      "valor": 250,
+      "tipo": "despesa",
+      "data": "18/03/2025",
+      "categoria": "Alimentação",
+      "categoriaId": 2,
+      "mes": 2,
+      "ano": 2025
+    },
+    {
+      "id": 9,
+      "descricao": "Uber",
+      "valor": 120,
+      "tipo": "despesa",
+      "data": "22/03/2025",
+      "categoria": "Transporte",
+      "categoriaId": 3,
+      "mes": 2,
+      "ano": 2025
+    }
+  ],
+  "balanceData": [
+    {
+      "name": "Jan",
+      "receitas": 5000,
+      "despesas": 3500
+    },
+    {
+      "name": "Fev",
+      "receitas": 5500,
+      "despesas": 3800
+    },
+    {
+      "name": "Mar",
+      "receitas": 6000,
+      "despesas": 4200
+    },
+    {
+      "name": "Abr",
+      "receitas": 5800,
+      "despesas": 4100
+    },
+    {
+      "name": "Mai",
+      "receitas": 6200,
+      "despesas": 4300
+    },
+    {
+      "name": "Jun",
+      "receitas": 6500,
+      "despesas": 4500
+    }
+  ]
+}
